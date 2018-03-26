@@ -8,7 +8,7 @@
 	SDRSharper - Don't forget to check your references to the above.<br><br>
 	NOTE: This solutions will require Telerik RadForms.
 <br>
-Have fun experimenting with current source!<br>
+Have fun experimenting with SDRSharper v0.L6 source!<br>
 <br>
 TODO: Add direct support for P25 ;)<br>
 <br>
