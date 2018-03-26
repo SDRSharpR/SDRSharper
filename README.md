@@ -14,5 +14,5 @@ Orignal binaries <a href="http://www.qsl.net/s/sdr/">HERE</a>
 TODO: Add direct support for P25 ;)<br>
 <br>
 <br>
-<img src="Screenshot.png"><br><br><br>
+<img src="Screenshot.png"><br>
 Stay tuned for further releases... Upcoming... UniTrunker!! Just cleaning it up for successful compile. ;)
