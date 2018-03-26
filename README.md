@@ -6,7 +6,7 @@
 	Common<br>
 	CollapsiblePanel<br>
 	SDRSharper - Don't forget to check your references to the above.<br><br>
-	NOTE: This solutions will require Telerik RadForms. However, it can be easily converted back to winforms.
+	NOTE: This solution will require Telerik RadForms. However, it can be easily converted back to winforms.
 <br><br>
 Have fun experimenting with SDRSharper v0.L6 source!<br>
 Orignal binaries <a href="http://www.qsl.net/s/sdr/">HERE</a>
