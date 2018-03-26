@@ -9,6 +9,7 @@
 	NOTE: This solutions will require Telerik RadForms.
 <br>
 Have fun experimenting with SDRSharper v0.L6 source!<br>
+Orignal binaries <a href="http://www.qsl.net/s/sdr/">HERE</a>
 <br>
 TODO: Add direct support for P25 ;)<br>
 <br>
