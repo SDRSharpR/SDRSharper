@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{DA8F0AD0-73BE-4FA0-B8AE-315BE25DF373}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SDRSharp.PanView</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll</HintPath>
+    </Reference>
+    <Reference Include="SDRSharp.Radio">
+      <HintPath>C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\SDRSharp.Radio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SDRSharp.PanView.Properties\Resources.cs" />
+    <Compile Include="SDRSharp.PanView\BandType.cs" />
+    <Compile Include="SDRSharp.PanView\BandwidthEventArgs.cs" />
+    <Compile Include="SDRSharp.PanView\Fill.cs" />
+    <Compile Include="SDRSharp.PanView\FrequencyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.PanView\FrequencyEventArgs.cs" />
+    <Compile Include="SDRSharp.PanView\frmStationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.PanView\GradientDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.PanView\GradientEventArgs.cs" />
+    <Compile Include="SDRSharp.PanView\Indicator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.PanView\LinLog.cs" />
+    <Compile Include="SDRSharp.PanView\ManualBandwidthChange.cs" />
+    <Compile Include="SDRSharp.PanView\ManualFrequencyChange.cs" />
+    <Compile Include="SDRSharp.PanView\ManualNotchChange.cs" />
+    <Compile Include="SDRSharp.PanView\ManualValueChange.cs" />
+    <Compile Include="SDRSharp.PanView\Meter.cs" />
+    <Compile Include="SDRSharp.PanView\Mouses.cs" />
+    <Compile Include="SDRSharp.PanView\Notch.cs" />
+    <Compile Include="SDRSharp.PanView\NotchEventArgs.cs" />
+    <Compile Include="SDRSharp.PanView\PanViewUtils.cs" />
+    <Compile Include="SDRSharp.PanView\PeakDetector.cs" />
+    <Compile Include="SDRSharp.PanView\PositionEventArgs.cs" />
+    <Compile Include="SDRSharp.PanView\Scope.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.PanView\SpectrumAnalyzer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.PanView\Waterfall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Radio\BarMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SDRSharp.PanView\FrequencyDialog.resx">
+      <DependentUpon>FrequencyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.PanView\GradientDialog.resx">
+      <DependentUpon>GradientDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.PanView\Indicator.resx">
+      <DependentUpon>Indicator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.Radio\BarMeter.resx">
+      <DependentUpon>BarMeter.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

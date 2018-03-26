@@ -1,0 +1,56 @@
+12:14:45.960 - Program start
+12:14:45.967 - Threadpool initialized
+12:14:45.968 - Explicitely enabled VisualStyles
+12:14:45.969 - Start FormMain
+12:14:46.830 - Settings loaded
+12:14:47.943 - Component initialized
+12:14:47.998 - Plugins initialized
+12:14:48.114 -     Audio input device [MME] Microsoft Sound Mapper - Input found.
+12:14:48.114 -     Audio input device [MME] CABLE Output (VB-Audio Virtual  found.
+12:14:48.114 -     Audio input device [MME] Stereo Mix (Realtek High Defini found.
+12:14:48.114 -     Audio input device [MME] Microphone (Realtek High Defini found.
+12:14:48.115 -     Audio input device [MME] Microphone (JBL Flip 3 Hands-Fr found.
+12:14:48.115 -     Audio input device [WDS] Primary Sound Capture Driver found.
+12:14:48.117 -     Audio input device [WDS] CABLE Output (VB-Audio Virtual Cable) found.
+12:14:48.117 -     Audio input device [WDS] Stereo Mix (Realtek High Definition Audio) found.
+12:14:48.117 -     Audio input device [WDS] Microphone (Realtek High Definition Audio) found.
+12:14:48.117 -     Audio input device [WDS] Microphone (JBL Flip 3 Hands-Free) found.
+12:14:48.117 -     Audio input device [Windows WASAPI] Stereo Mix (Realtek High Definition Audio) found.
+12:14:48.117 -     Audio input device [Windows WASAPI] Microphone (Realtek High Definition Audio) found.
+12:14:48.117 -     Audio input device [Windows WASAPI] Microphone (JBL Flip 3 Hands-Free) found.
+12:14:48.118 -     Audio input device [Windows WASAPI] CABLE Output (VB-Audio Virtual Cable) found.
+12:14:48.118 -     Audio input device [Windows WDM-KS] Microphone (Realtek HD Audio Mic input) found.
+12:14:48.118 -     Audio input device [Windows WDM-KS] Stereo Mix (Realtek HD Audio Stereo input) found.
+12:14:48.118 -     Audio input device [Windows WDM-KS] Microphone (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(JBL Flip 3)) found.
+12:14:48.118 -     Audio input device [Windows WDM-KS] CABLE Output (VB-Audio Point) found.
+12:14:48.120 -     Audio output device [MME] Microsoft Sound Mapper - Output found.
+12:14:48.120 -     Audio output device [MME] Speakers (JBL Flip 3 Stereo) found.
+12:14:48.121 -     Audio output device [MME] Speakers / Headphones (Realtek  found.
+12:14:48.121 -     Audio output device [MME] CABLE Input (VB-Audio Virtual C found.
+12:14:48.121 -     Audio output device [MME] Headset Earphone (JBL Flip 3 Ha found.
+12:14:48.121 -     Audio output device [WDS] Primary Sound Driver found.
+12:14:48.121 -     Audio output device [WDS] Speakers (JBL Flip 3 Stereo) found.
+12:14:48.121 -     Audio output device [WDS] Speakers / Headphones (Realtek High Definition Audio) found.
+12:14:48.122 -     Audio output device [WDS] CABLE Input (VB-Audio Virtual Cable) found.
+12:14:48.122 -     Audio output device [WDS] Headset Earphone (JBL Flip 3 Hands-Free) found.
+12:14:48.122 -     Audio output device [Windows WASAPI] Speakers / Headphones (Realtek High Definition Audio) found.
+12:14:48.122 -     Audio output device [Windows WASAPI] CABLE Input (VB-Audio Virtual Cable) found.
+12:14:48.122 -     Audio output device [Windows WASAPI] Headset Earphone (JBL Flip 3 Hands-Free) found.
+12:14:48.122 -     Audio output device [Windows WASAPI] Speakers (JBL Flip 3 Stereo) found.
+12:14:48.122 -     Audio output device [Windows WDM-KS] Speakers (Realtek HD Audio output) found.
+12:14:48.122 -     Audio output device [Windows WDM-KS] Headset Earphone (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(JBL Flip 3)) found.
+12:14:48.123 -     Audio output device [Windows WDM-KS] Speakers () found.
+12:14:48.123 -     Audio output device [Windows WDM-KS] Speakers (VB-Audio Point) found.
+12:14:48.135 - VFO initialized.
+12:14:48.198 - GUI initialized.
+12:14:48.338 - Frequency list loaded.
+12:14:48.340 -     ExtIO controller ExtIO_RTL_x64.dll found.
+12:14:48.341 - Plugins initialized.
+12:14:48.342 - IQ source selected.
+12:14:48.364 - GUI initialized
+12:14:49.565 - IQ source selected.
+12:14:49.691 - MainForm loaded
+12:14:49.996 - MainForm shown
+12:25:52.310 - Program exit

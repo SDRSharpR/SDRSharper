@@ -1,0 +1,49 @@
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharper.exe.config
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharper.exe
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharper.pdb
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.CollapsiblePanel.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Common.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Controls.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.PanView.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Radio.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Common.pdb
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.PanView.pdb
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.CollapsiblePanel.pdb
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Controls.pdb
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Radio.pdb
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csprojResolveAssemblyReference.cache
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharp.MainForm.resources
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csproj.GenerateResource.cache
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csproj.CoreCompileInputs.cache
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csproj.CopyComplete
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.exe
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharper.exe.config
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharper.exe
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharper.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.CollapsiblePanel.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Common.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Controls.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.PanView.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Radio.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\Telerik.WinControls.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\TelerikCommon.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.CollapsiblePanel.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Common.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Controls.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.Radio.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\SDRSharp.PanView.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\Telerik.WinControls.xml
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharp.MainForm.resources
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharp.Properties.Resources.resources
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharp.RadAboutBox1.resources
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csproj.GenerateResource.cache
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.exe.licenses
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.csproj.CopyComplete
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.exe
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\SDRSharper\obj\x86\Debug\SDRSharper.pdb

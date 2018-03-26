@@ -1,0 +1,232 @@
+Below some of the additional features added to the default SDRsharp radio (2-mar-2015)
+
+---------------------------------------------------------------------------------------
+
+Note that the upmost 'spectrumanalyzer' display is the main display to be used for controlling the SDR.
+
+Use 'Span', 'Floor', 'Contr(ast)' and 'Intens(ity)' sliders to change upper and lower Spectrum analyser and Waterfall signal levels.
+
+Use the 'set' button or 'Right' mouse-button and select 'Do autoscaling' to automatically set lower signal level when 'Play' is active.
+
+Use the 'dBm / dBu / S-pts / %' list box to switch betweem signal level labeling.
+
+Use the 'Speed' slider to independently set the waterfall speed somewhere between 20 secs and 1.5 hours.
+
+After having clicked somewhere in the SpectrumAnalayzer display one can use Left and Rigth arrow keys to move frequency.
+Use Page-up and Page-down to move/change centerfrequency according 'Cent-step' listbox entry.
+
+Use mouse scroll button on one of the top Cent/Freq digits to change (center)frequency.
+Click on top of bottom of digit to increase/decrease digit value by one.
+Or if one of the digits shows blue use up/down arrow.
+
+
+Shortcut keys:
+
+	<F1> to <F3> 	select VFO-A to VFO-C
+
+	A		select mode AM
+	S		Select mode SAM
+	L		select mode LSB
+	U		select mode USB
+	D		select mode DSB
+	N		select mode nFM
+	W		select mode wFM
+
+	B 5 <Enter>	set BandWidth to 5 khz 	(do not type the white spaces)
+	G 50 (Enter>	set audio level (Gain) to 50%
+	C 100 (Enter>	set Center stepsize to 100 khz
+	Z 9 (Enter>	Set Frequency stepsiZe to 9 khz
+
+	<Home>		Perform auto scaling
+
+	1350 <Enter>	Set frequency to 1350 Khz
+	1350 K		Set frequency to 1350 Khz
+	1.2 M		Set frequency to 1.2 Mhz
+
+When the Spectrum display is selected (has focus) (after having clicked somewhere in the Spectrum display) 
+One can use the below keys:
+
+	Right/Left arrow	increase/decrease active frequency with 'stepsize' amount.
+	Up/Down arrow		increase/decrease active frequency with' stepsize' amount.
+	Page-Up/Page-Down	increase/decrease Center frequency with 'center step' amount.	
+
+Use the upmost buttons on the left 'FFT display' panel to enable/disable the RF Waterfall, IF baseband, AF audio 
+and/orAM envelope displays. 
+	
+Right click in IF baseband spectrum display to add or remove up to 4 notches, left click to enable/disable notch.
+Use mouse wheel (or drag side of notch) to change notch width. 
+(as an alternative one can use the 'IF' button to toggle between normal RF-spectrum and IF-baseband mode)
+One can also use the IF display to more precisely set/tune main receiving frequency ans/or passband width.
+
+Use the 'Lock' button to enable/disable frequency locking when (Vector)Scope display is active (XY mode, X=AM, Y=PM)
+
+To more precisely inspect AM audio levels on the 'Scope' panel, please disable the AGC function/button. 
+The 'RF gain' slider will automatically adjust itself to an appropriate level.
+If needed manually adjust RF gain to get the display within range.
+After a frequency change the AGC function is automatically re-enabled again to avoid audio overloads.
+
+
+'Radio' panel:
+
+	Vfo A to C		Re-use stored setting when this Vfo was last used.
+				For instance to quickly switch between 3 bands of interrest.			
+
+'Audio' panel:
+
+	[1] to [4] buttons	Enable/disable audio notch 1 to 4, visible when IF passband is enabled on FFT window.
+				Or ... drag the notches just as if you would drag/change the Vfo passband.
+				Click on notch to enable/disable a previously set notch.
+'FFT diplay' panel:
+
+	'Waterfall'		To enable/disable the RF spectrum WaterFall display.
+	'show IF'		To enable/disable the IF baseband spectrum display
+	'Audio' 		To enable/disable the AF audio horizontal moving display.
+	'Envelope'		To enable/disable the AM envlope display.
+
+	'S-meter offset'	to change S-meter readings when using an RTL-stick or other front-end.
+	'Indep sideb.' 		To toggle between default and Perseus style bandwidth changing (using mouse).
+	'Spect' button		to select/change Spectrumanalyzer fill, gradient and/or line color.
+				The same holds for the 'W-fall', 'Audio' and 'Scope' buttons.
+
+'Scope' panel -> [...] button
+
+	'Vfo gain'		Manually adjust gain when AGC is disabled or to change scope Y axis visibility.
+
+	5 lower sliders		to change the behaviour slow/fast of the corresponding coloured audio level meter (bars).
+	'Avg' slider 		change averaging level for locking on Vector scope display, default value is around 40 
+	'Gain' slider		change amplification for locking in Vector scope display, default value is around 9
+
+'Advanced' panel
+
+	'Auto Scale'		To enable/disable auto scaling after center-frequency change. 
+
+	'Fast conv.'		Toggle between Fast Convolve and default principles for the notch filters
+	'FFT wind'		Select the window type for the FFT Spectrumanalyser and Waterfall displays
+	'VFO wind'		Select the window type to use for the VFO band filter.
+	'Bandwdt'		Select filter bandwidth (same as BW combo to the right of freq-indicator)
+	'Filter order'		To set the filter quality for the VFO filter (default=400, higher values, more CPU).
+				To get deeper/sharper IF baseband notches, select a lower min-samplerate on Audio panel.
+	'Latency'		To experiment of you are experiencing audio drop-outs (default=100ms)
+
+Using a RTL based dongle one can also inspect the 'audio' spectrum for commercial stereo stations in the FM band. 
+To do this, enable the Audio display on the FFT display panel. Tune to a station in the FM band and set the 'min
+sampling' on the 'Audio' panel to 96000 using the Sampling box on the 'Audio' panel.
+Select wide-FM (wFM) as the audio mode on the 'Radio' panel to be sure the bandwidth (BW) is 180 kHz or more.
+Disable 'Filter audio' and toggle 'FM stereo' for best results.
+
+***************************************************************************************************************************
+
+If your audio contains drop-outs you can experiment with the below:
+
+- Select a lower FFT resolution (e.g. 4096) on 'FFT display' panel.
+- Decrease the speed for the FFT waterfall and/or the Audiogram.
+- Select 'Audiogram' instead of Envelope scope' by disabling lower right 'Scope' button.
+- Select only 'SP + Waterfall' in the 'View' combo on the 'FFT display' panel.
+- Decrease the overall size of your SDRSharper window on your computer monitor.
+- Disable the 'Fast Conv.' button on the 'Advanced' panel.
+- Try different 'min sampling' setting on the 'Audio' panel.
+  Depending on sound card selected some setting(s) might to better.
+
+***************************************************************************************************************************
+
+Some more HINTS, TRICKS and suggestions:
+
+- For best audiogram waterfall display select 48000 for the 'min sampling' on the 'Audio' panel.
+  However this will degrade the visibility on the IF spectrum display.
+- For best details on the IF display, select 16000 or 24000 for the 'min sampling' on the 'Audio' panel.
+- This 'min (output) sampling' value will also affect audio quality and the bandwidth for the 'Raw' output,
+  so it's something to experiment with.
+- For more pronounced IF baseband nothes (USB, LSB, CW) use lower 'min-sampling' values e.g. 8000 or 16000.
+- When SAM demodulation is selected, use the 'AM pseud' button on the 'Audio' panel to switch between mono and 
+  'pseudo stereo'. (Left ear one sideband, right ear the other sideband).
+- Use the 'Vfo gain' slider and/or timebase combo on the collapsible 'Scope panel on the left to 'manually adjust
+  the amplification for the Scope and Envelope diplays
+
+***************************************************************************************************************************
+
+For HF below 30 Mhz, the first station in the Eibi stationlist data is listed on the top line in the SpectrumAnalyzer.
+Click on this top-line to view all stations for the frequency. To get a longer list, increase the max on the last line.
+
+To get a new actual stationlist for your location:
+
+1) go to http://fmscan.org/perseus.php
+2) Only once, set your location using 'Perseus location search'
+3) select LW/MW/SW (0-30Mhz)
+4) select CSV format
+5) select 'comma' as the CSV separator
+6) Click 'download userlist1.txt'
+7) After some time a new page shows up, right click and use 'save as' to save the data on your local hard disk.
+8) Copy the file to your SDRsharp runtime folder with the name 'eibi.csv'
+9) Restart SDRsharp
+
+****************************************************************************************************************************
+ 
+To enable 7-segment LED indicator style numbers for Center and Frequency indicators
+Install the LCD font file into your fonts folder. 
+You can do this by double clicking the 'LCD-N___.tff' file.
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                        RELEASE NOTES / CHANGE LOG
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+This modification was created to support ExtIO based SDR hardware on lower HF.
+Which was (and maybe still is) not possible using the original SDRSharp app.
+
+Get SDRSharper_02g.zip and unpack/unzip files into a single destination folder.
+
+See also Help.txt file included in the Zip-file or click [?] button on bottom right of SDR.
+
+SDRSharper Requires Microsoft .Net framework 3.5
+http://www.microsoft.com/en-us/download/details.aspx?id=21
+
+On most modern W7 and above systems already available.
+Although on W10 you will have to download it again.
+
+SDRSharper supports most ExtIO enabled SDR hardware front ends.
+See lowerr list on http://www.hdsdr.de/hardware.html
+Place appropriate ExtIO*.dll file in your SDRSharper folder.
+
+Package already contains ExtIO dll's for Perseus and PapRadio SDR.
+Furthermore the RTLSDR DVBT Dongle is supported.
+
+
+To contact author: l_o_n_g_d_i_p_o_l_e_[at]_gmx.com	(without the _ char's and @ for [at])
+
+- use ExtIO_PappRadio.zip for pappradio ExtIO files.
+- use ExtIO_PappRadio2.zip for pappradio v2 (usb) ExtIO files.
+- use ExtIO_Perseus.zip for Perseus ExtIO files.
+- use ExtIO_PMSDR_XP.zip for PMSDR ExtIO files running windows-XP.
+- use ExtIO_PMSDR_W7.zip for PMSDR ExtIO files running windows-7.
+- use ExtIO_SI570.zip for PMSDR, FiFiSDR or other SI570 based hardware.
+- use Install_CFGSR_v2.6.msi to instaal full SI570 package including drivers.
+
+============================================================================================
+Release notes:
+============================================================================================
+
+mar 04, 2015 - version 0.2g
+
+- Added Synchronous AM demodulation.
+- Both mono and 'pseudo stereo'. 
+- Removed trial period restrictions.
+- Minor fixes.
+
+feb 15, 2015 - Version 0.2g
+
+- Bugfix on RTL-USB selection
+- Synchronous AM (SAM) demodulation added
+- Some other minor improvements
+
+oct 2014 - version 0.2e
+
+- Fixed crash when using soundcard based ExtIO hardware.
+- Fixed display of spurs when playing sim.wav (http://www.sm5bsz.com/lir/sim1/sim1.htm)
+- Bugfix when using a system with sound input disabled.
+- Added separate IF baseband spectrum display.
+- Enabled zooming and tuning for wide spectrum recordings.
+- Adressed some (minor) performance issues.
+- Removed center frequency indicator.
+
+(and probably introduced some new ones..., if so let me know).

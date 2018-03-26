@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<ArrayOfMemoryEntry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.7128 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484712800</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>484998784</CenterFrequency>
+    <FilterBandwidth>13200</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.8121 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484812054</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>485436308</CenterFrequency>
+    <FilterBandwidth>19600</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.8393 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484839303</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>485436308</CenterFrequency>
+    <FilterBandwidth>12000</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.8508 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484850784</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>484998784</CenterFrequency>
+    <FilterBandwidth>13200</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.8635 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484863488</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>484998784</CenterFrequency>
+    <FilterBandwidth>13200</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.8879 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484887850</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>484998784</CenterFrequency>
+    <FilterBandwidth>13200</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.8887 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484888730</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>485436308</CenterFrequency>
+    <FilterBandwidth>12000</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.9257 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484925728</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>484998784</CenterFrequency>
+    <FilterBandwidth>13200</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.9372 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484937216</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>484998784</CenterFrequency>
+    <FilterBandwidth>13200</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>484.9626 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>484962592</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <CenterFrequency>484998784</CenterFrequency>
+    <FilterBandwidth>13200</FilterBandwidth>
+  </MemoryEntry>
+</ArrayOfMemoryEntry>

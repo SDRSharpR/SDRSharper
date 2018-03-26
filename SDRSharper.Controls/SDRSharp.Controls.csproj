@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1AEB0726-F178-4E46-8060-6D03136C031E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SDRSharp.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SDRSharp.Controls\BorderGradientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\ControlsUtils.cs" />
+    <Compile Include="SDRSharp.Controls\gButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\gCombo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\gLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\gProgress.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\gSliderH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\gSliderV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\gTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\gUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SDRSharp.Controls\RoundedRectangle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SDRSharp.Controls\gCombo.resx">
+      <DependentUpon>gCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.Controls\gLabel.resx">
+      <DependentUpon>gLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.Controls\gProgress.resx">
+      <DependentUpon>gProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.Controls\gSliderH.resx">
+      <DependentUpon>gSliderH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.Controls\gSliderV.resx">
+      <DependentUpon>gSliderV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.Controls\gTextBox.resx">
+      <DependentUpon>gTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDRSharp.Controls\gUpDown.resx">
+      <DependentUpon>gUpDown.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
