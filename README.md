@@ -15,4 +15,4 @@ TODO: Add direct support for P25 ;)<br>
 <br>
 <br>
 <img src="Screenshot.png"><br>
-Stay tuned for further releases... Upcoming... UniTrunker!! Just cleaning it up for successful compile. ;)
+Stay tuned for further releases... Upcoming... UniTrunker (mainly for trunking) and DSDplus (mainly since they dont want to release unless your 'Fastlane', 6 months my ass) !! Just cleaning it up for successful compile. ;)
