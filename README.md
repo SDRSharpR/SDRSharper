@@ -5,8 +5,8 @@
 	PanView<br>
 	Common<br>
 	CollapsiblePanel<br>
-	FrequencyEdit<br>
 	SDRSharper - Don't forget to check your references to the above.<br>
+	NOTE: This solutions will require Telerik RadForms.
 <br>
 Have fun experimenting with current source!<br>
 <br>
