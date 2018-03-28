@@ -98,7 +98,7 @@ namespace SDRSharp.Radio
 			this._grU.Clear(Color.FromArgb(64, 64, 64));
 			using (Font font = new Font("Aerial", 6f))
 			{
-				using (Pen pen = new Pen(Color.CornflowerBlue))
+				using (Pen pen = new Pen(Color.Yellow))
 				{
 					for (int i = min; i <= max; i += step)
 					{
@@ -107,7 +107,7 @@ namespace SDRSharp.Radio
 						this._grU.DrawLine(pen, num, (float)(this.pic.Location.Y - this.tickSize), num, (float)this.pic.Location.Y);
 						float height = this._grU.MeasureString(text, font).Height;
 						float num2 = (i == min) ? 2f : this._grU.MeasureString(text, font).Width;
-						this._grU.DrawString(text, font, Brushes.CornflowerBlue, num - num2 / 2f, (float)(this.pic.Location.Y - this.tickSize) - height);
+						this._grU.DrawString(text, font, Brushes.Yellow, num - num2 / 2f, (float)(this.pic.Location.Y - this.tickSize) - height);
 					}
 				}
 			}
@@ -162,34 +162,24 @@ namespace SDRSharp.Radio
 
 		private void InitializeComponent()
 		{
-            this.pic = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // pic
-            // 
-            this.pic.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pic.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pic.Location = new System.Drawing.Point(0, 15);
-            this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(190, 20);
-            this.pic.TabIndex = 0;
-            this.pic.TabStop = false;
-            // 
-            // BarMeter
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Controls.Add(this.pic);
-            this.Name = "BarMeter";
-            this.Size = new System.Drawing.Size(200, 35);
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
-            this.ResumeLayout(false);
-
+			this.pic = new PictureBox();
+			((ISupportInitialize)this.pic).BeginInit();
+			base.SuspendLayout();
+			this.pic.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right);
+			this.pic.BackColor = SystemColors.ButtonFace;
+			this.pic.BorderStyle = BorderStyle.FixedSingle;
+			this.pic.Location = new Point(0, 15);
+			this.pic.Name = "pic";
+			this.pic.Size = new Size(190, 20);
+			this.pic.TabIndex = 0;
+			this.pic.TabStop = false;
+			base.AutoScaleDimensions = new SizeF(6f, 13f);
+			base.AutoScaleMode = AutoScaleMode.Font;
+			base.Controls.Add(this.pic);
+			base.Name = "BarMeter";
+			base.Size = new Size(200, 35);
+			((ISupportInitialize)this.pic).EndInit();
+			base.ResumeLayout(false);
 		}
 	}
 }

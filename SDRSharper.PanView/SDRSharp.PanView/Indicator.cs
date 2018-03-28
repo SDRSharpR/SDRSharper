@@ -338,200 +338,228 @@ namespace SDRSharp.PanView
 
 		private void InitializeComponent()
 		{
-            this.txt8 = new System.Windows.Forms.Label();
-            this.txt7 = new System.Windows.Forms.Label();
-            this.txt6 = new System.Windows.Forms.Label();
-            this.txt3 = new System.Windows.Forms.Label();
-            this.txt4 = new System.Windows.Forms.Label();
-            this.txt5 = new System.Windows.Forms.Label();
-            this.txt0 = new System.Windows.Forms.Label();
-            this.txt1 = new System.Windows.Forms.Label();
-            this.txt2 = new System.Windows.Forms.Label();
-            this.txt10 = new System.Windows.Forms.Label();
-            this.txt9 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // txt8
-            // 
-            this.txt8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt8.Font = new System.Drawing.Font("LCD", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt8.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt8.Location = new System.Drawing.Point(77, 0);
-            this.txt8.Margin = new System.Windows.Forms.Padding(0);
-            this.txt8.Name = "txt8";
-            this.txt8.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt8.Size = new System.Drawing.Size(24, 34);
-            this.txt8.TabIndex = 0;
-            this.txt8.Text = "8";
-            this.txt8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt7
-            // 
-            this.txt7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt7.Font = new System.Drawing.Font("LCD", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt7.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt7.Location = new System.Drawing.Point(101, 0);
-            this.txt7.Margin = new System.Windows.Forms.Padding(0);
-            this.txt7.Name = "txt7";
-            this.txt7.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt7.Size = new System.Drawing.Size(24, 34);
-            this.txt7.TabIndex = 1;
-            this.txt7.Text = "8";
-            this.txt7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt6
-            // 
-            this.txt6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt6.Font = new System.Drawing.Font("LCD", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt6.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt6.Location = new System.Drawing.Point(125, 0);
-            this.txt6.Margin = new System.Windows.Forms.Padding(0);
-            this.txt6.Name = "txt6";
-            this.txt6.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt6.Size = new System.Drawing.Size(24, 34);
-            this.txt6.TabIndex = 2;
-            this.txt6.Text = "8";
-            this.txt6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt3
-            // 
-            this.txt3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt3.Font = new System.Drawing.Font("LCD", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt3.Location = new System.Drawing.Point(202, 0);
-            this.txt3.Margin = new System.Windows.Forms.Padding(0);
-            this.txt3.Name = "txt3";
-            this.txt3.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt3.Size = new System.Drawing.Size(24, 34);
-            this.txt3.TabIndex = 5;
-            this.txt3.Text = "8";
-            this.txt3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt4
-            // 
-            this.txt4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt4.Font = new System.Drawing.Font("LCD", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt4.Location = new System.Drawing.Point(178, 0);
-            this.txt4.Margin = new System.Windows.Forms.Padding(0);
-            this.txt4.Name = "txt4";
-            this.txt4.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt4.Size = new System.Drawing.Size(24, 34);
-            this.txt4.TabIndex = 4;
-            this.txt4.Text = "8";
-            this.txt4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt5
-            // 
-            this.txt5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt5.Font = new System.Drawing.Font("LCD", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt5.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt5.Location = new System.Drawing.Point(154, 0);
-            this.txt5.Margin = new System.Windows.Forms.Padding(0);
-            this.txt5.Name = "txt5";
-            this.txt5.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt5.Size = new System.Drawing.Size(24, 34);
-            this.txt5.TabIndex = 3;
-            this.txt5.Text = "8";
-            this.txt5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt0
-            // 
-            this.txt0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt0.Font = new System.Drawing.Font("LCD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt0.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt0.Location = new System.Drawing.Point(271, 0);
-            this.txt0.Margin = new System.Windows.Forms.Padding(0);
-            this.txt0.Name = "txt0";
-            this.txt0.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt0.Size = new System.Drawing.Size(22, 30);
-            this.txt0.TabIndex = 8;
-            this.txt0.Text = "8";
-            this.txt0.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt1
-            // 
-            this.txt1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt1.Font = new System.Drawing.Font("LCD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt1.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt1.Location = new System.Drawing.Point(251, 0);
-            this.txt1.Margin = new System.Windows.Forms.Padding(0);
-            this.txt1.Name = "txt1";
-            this.txt1.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt1.Size = new System.Drawing.Size(22, 30);
-            this.txt1.TabIndex = 7;
-            this.txt1.Text = "8";
-            this.txt1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt2
-            // 
-            this.txt2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt2.Font = new System.Drawing.Font("LCD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt2.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt2.Location = new System.Drawing.Point(231, 0);
-            this.txt2.Margin = new System.Windows.Forms.Padding(0);
-            this.txt2.Name = "txt2";
-            this.txt2.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt2.Size = new System.Drawing.Size(22, 30);
-            this.txt2.TabIndex = 6;
-            this.txt2.Text = "8";
-            this.txt2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txt10
-            // 
-            this.txt10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt10.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt10.Location = new System.Drawing.Point(0, 0);
-            this.txt10.Name = "txt10";
-            this.txt10.Size = new System.Drawing.Size(44, 34);
-            this.txt10.TabIndex = 9;
-            this.txt10.Text = "Freq";
-            this.txt10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // txt9
-            // 
-            this.txt9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.txt9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt9.Font = new System.Drawing.Font("LCD", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt9.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.txt9.Location = new System.Drawing.Point(48, 0);
-            this.txt9.Margin = new System.Windows.Forms.Padding(0);
-            this.txt9.Name = "txt9";
-            this.txt9.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.txt9.Size = new System.Drawing.Size(24, 34);
-            this.txt9.TabIndex = 10;
-            this.txt9.Text = "8";
-            this.txt9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // Indicator
-            // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.Controls.Add(this.txt9);
-            this.Controls.Add(this.txt3);
-            this.Controls.Add(this.txt4);
-            this.Controls.Add(this.txt5);
-            this.Controls.Add(this.txt6);
-            this.Controls.Add(this.txt7);
-            this.Controls.Add(this.txt8);
-            this.Controls.Add(this.txt0);
-            this.Controls.Add(this.txt1);
-            this.Controls.Add(this.txt2);
-            this.Controls.Add(this.txt10);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Indicator";
-            this.Size = new System.Drawing.Size(300, 42);
-            this.ResumeLayout(false);
-
+			this.txt8 = new Label();
+			this.txt7 = new Label();
+			this.txt6 = new Label();
+			this.txt3 = new Label();
+			this.txt4 = new Label();
+			this.txt5 = new Label();
+			this.txt0 = new Label();
+			this.txt1 = new Label();
+			this.txt2 = new Label();
+			this.txt10 = new Label();
+			this.txt9 = new Label();
+			base.SuspendLayout();
+			this.txt8.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt8.BorderStyle = BorderStyle.FixedSingle;
+			this.txt8.Font = new Font("LCD", 21.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt8.ForeColor = Color.Yellow;
+			this.txt8.Location = new Point(77, 0);
+			this.txt8.Margin = new Padding(0);
+			this.txt8.Name = "txt8";
+			this.txt8.Padding = new Padding(0, 2, 0, 0);
+			this.txt8.Size = new Size(24, 34);
+			this.txt8.TabIndex = 0;
+			this.txt8.Text = "8";
+			this.txt8.TextAlign = ContentAlignment.TopCenter;
+			this.txt8.Enter += this.txt_Enter;
+			this.txt8.Leave += this.txt_Leave;
+			this.txt8.MouseDown += this.txt_MouseDown;
+			this.txt8.MouseEnter += this.txt_MouseEnter;
+			this.txt8.MouseWheel += this.txt_MouseWheel;
+			this.txt8.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt7.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt7.BorderStyle = BorderStyle.FixedSingle;
+			this.txt7.Font = new Font("LCD", 21.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt7.ForeColor = Color.Yellow;
+			this.txt7.Location = new Point(101, 0);
+			this.txt7.Margin = new Padding(0);
+			this.txt7.Name = "txt7";
+			this.txt7.Padding = new Padding(0, 2, 0, 0);
+			this.txt7.Size = new Size(24, 34);
+			this.txt7.TabIndex = 1;
+			this.txt7.Text = "8";
+			this.txt7.TextAlign = ContentAlignment.TopCenter;
+			this.txt7.Enter += this.txt_Enter;
+			this.txt7.Leave += this.txt_Leave;
+			this.txt7.MouseDown += this.txt_MouseDown;
+			this.txt7.MouseEnter += this.txt_MouseEnter;
+			this.txt7.MouseWheel += this.txt_MouseWheel;
+			this.txt7.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt6.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt6.BorderStyle = BorderStyle.FixedSingle;
+			this.txt6.Font = new Font("LCD", 21.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt6.ForeColor = Color.Yellow;
+			this.txt6.Location = new Point(125, 0);
+			this.txt6.Margin = new Padding(0);
+			this.txt6.Name = "txt6";
+			this.txt6.Padding = new Padding(0, 2, 0, 0);
+			this.txt6.Size = new Size(24, 34);
+			this.txt6.TabIndex = 2;
+			this.txt6.Text = "8";
+			this.txt6.TextAlign = ContentAlignment.TopCenter;
+			this.txt6.Enter += this.txt_Enter;
+			this.txt6.Leave += this.txt_Leave;
+			this.txt6.MouseDown += this.txt_MouseDown;
+			this.txt6.MouseEnter += this.txt_MouseEnter;
+			this.txt6.MouseWheel += this.txt_MouseWheel;
+			this.txt6.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt3.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt3.BorderStyle = BorderStyle.FixedSingle;
+			this.txt3.Font = new Font("LCD", 21.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt3.ForeColor = Color.Yellow;
+			this.txt3.Location = new Point(202, 0);
+			this.txt3.Margin = new Padding(0);
+			this.txt3.Name = "txt3";
+			this.txt3.Padding = new Padding(0, 2, 0, 0);
+			this.txt3.Size = new Size(24, 34);
+			this.txt3.TabIndex = 5;
+			this.txt3.Text = "8";
+			this.txt3.TextAlign = ContentAlignment.TopCenter;
+			this.txt3.Enter += this.txt_Enter;
+			this.txt3.Leave += this.txt_Leave;
+			this.txt3.MouseDown += this.txt_MouseDown;
+			this.txt3.MouseEnter += this.txt_MouseEnter;
+			this.txt3.MouseWheel += this.txt_MouseWheel;
+			this.txt3.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt4.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt4.BorderStyle = BorderStyle.FixedSingle;
+			this.txt4.Font = new Font("LCD", 21.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt4.ForeColor = Color.Yellow;
+			this.txt4.Location = new Point(178, 0);
+			this.txt4.Margin = new Padding(0);
+			this.txt4.Name = "txt4";
+			this.txt4.Padding = new Padding(0, 2, 0, 0);
+			this.txt4.Size = new Size(24, 34);
+			this.txt4.TabIndex = 4;
+			this.txt4.Text = "8";
+			this.txt4.TextAlign = ContentAlignment.TopCenter;
+			this.txt4.Enter += this.txt_Enter;
+			this.txt4.Leave += this.txt_Leave;
+			this.txt4.MouseDown += this.txt_MouseDown;
+			this.txt4.MouseEnter += this.txt_MouseEnter;
+			this.txt4.MouseWheel += this.txt_MouseWheel;
+			this.txt4.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt5.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt5.BorderStyle = BorderStyle.FixedSingle;
+			this.txt5.Font = new Font("LCD", 21.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt5.ForeColor = Color.Yellow;
+			this.txt5.Location = new Point(154, 0);
+			this.txt5.Margin = new Padding(0);
+			this.txt5.Name = "txt5";
+			this.txt5.Padding = new Padding(0, 2, 0, 0);
+			this.txt5.Size = new Size(24, 34);
+			this.txt5.TabIndex = 3;
+			this.txt5.Text = "8";
+			this.txt5.TextAlign = ContentAlignment.TopCenter;
+			this.txt5.Enter += this.txt_Enter;
+			this.txt5.Leave += this.txt_Leave;
+			this.txt5.MouseDown += this.txt_MouseDown;
+			this.txt5.MouseEnter += this.txt_MouseEnter;
+			this.txt5.MouseWheel += this.txt_MouseWheel;
+			this.txt5.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt0.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt0.BorderStyle = BorderStyle.FixedSingle;
+			this.txt0.Font = new Font("LCD", 18f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt0.ForeColor = Color.Yellow;
+			this.txt0.Location = new Point(271, 0);
+			this.txt0.Margin = new Padding(0);
+			this.txt0.Name = "txt0";
+			this.txt0.Padding = new Padding(0, 2, 0, 0);
+			this.txt0.Size = new Size(22, 30);
+			this.txt0.TabIndex = 8;
+			this.txt0.Text = "8";
+			this.txt0.TextAlign = ContentAlignment.TopCenter;
+			this.txt0.Enter += this.txt_Enter;
+			this.txt0.Leave += this.txt_Leave;
+			this.txt0.MouseDown += this.txt_MouseDown;
+			this.txt0.MouseEnter += this.txt_MouseEnter;
+			this.txt0.MouseWheel += this.txt_MouseWheel;
+			this.txt0.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt1.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt1.BorderStyle = BorderStyle.FixedSingle;
+			this.txt1.Font = new Font("LCD", 18f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt1.ForeColor = Color.Yellow;
+			this.txt1.Location = new Point(251, 0);
+			this.txt1.Margin = new Padding(0);
+			this.txt1.Name = "txt1";
+			this.txt1.Padding = new Padding(0, 2, 0, 0);
+			this.txt1.Size = new Size(22, 30);
+			this.txt1.TabIndex = 7;
+			this.txt1.Text = "8";
+			this.txt1.TextAlign = ContentAlignment.TopCenter;
+			this.txt1.Enter += this.txt_Enter;
+			this.txt1.Leave += this.txt_Leave;
+			this.txt1.MouseDown += this.txt_MouseDown;
+			this.txt1.MouseEnter += this.txt_MouseEnter;
+			this.txt1.MouseWheel += this.txt_MouseWheel;
+			this.txt1.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt2.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt2.BorderStyle = BorderStyle.FixedSingle;
+			this.txt2.Font = new Font("LCD", 18f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt2.ForeColor = Color.Yellow;
+			this.txt2.Location = new Point(231, 0);
+			this.txt2.Margin = new Padding(0);
+			this.txt2.Name = "txt2";
+			this.txt2.Padding = new Padding(0, 2, 0, 0);
+			this.txt2.Size = new Size(22, 30);
+			this.txt2.TabIndex = 6;
+			this.txt2.Text = "8";
+			this.txt2.TextAlign = ContentAlignment.TopCenter;
+			this.txt2.Enter += this.txt_Enter;
+			this.txt2.Leave += this.txt_Leave;
+			this.txt2.MouseDown += this.txt_MouseDown;
+			this.txt2.MouseEnter += this.txt_MouseEnter;
+			this.txt2.MouseWheel += this.txt_MouseWheel;
+			this.txt2.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt10.BorderStyle = BorderStyle.FixedSingle;
+			this.txt10.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt10.ForeColor = Color.Yellow;
+			this.txt10.Location = new Point(0, 0);
+			this.txt10.Name = "txt10";
+			this.txt10.Size = new Size(44, 34);
+			this.txt10.TabIndex = 9;
+			this.txt10.Text = "Freq";
+			this.txt10.TextAlign = ContentAlignment.MiddleLeft;
+			this.txt10.Enter += this.txt_Enter;
+			this.txt10.Leave += this.txt_Leave;
+			this.txt10.MouseDown += this.txt_MouseDown;
+			this.txt10.MouseEnter += this.txt_MouseEnter;
+			this.txt10.MouseWheel += this.txt_MouseWheel;
+			this.txt10.PreviewKeyDown += this.txt_PreviewKeyDown;
+			this.txt9.BackColor = Color.FromArgb(80, 80, 80);
+			this.txt9.BorderStyle = BorderStyle.FixedSingle;
+			this.txt9.Font = new Font("LCD", 21.75f, FontStyle.Bold, GraphicsUnit.Point, 0);
+			this.txt9.ForeColor = Color.Yellow;
+			this.txt9.Location = new Point(48, 0);
+			this.txt9.Margin = new Padding(0);
+			this.txt9.Name = "txt9";
+			this.txt9.Padding = new Padding(0, 2, 0, 0);
+			this.txt9.Size = new Size(24, 34);
+			this.txt9.TabIndex = 10;
+			this.txt9.Text = "8";
+			this.txt9.TextAlign = ContentAlignment.TopCenter;
+			this.txt9.Enter += this.txt_Enter;
+			this.txt9.Leave += this.txt_Leave;
+			this.txt9.MouseDown += this.txt_MouseDown;
+			this.txt9.MouseEnter += this.txt_MouseEnter;
+			this.txt9.PreviewKeyDown += this.txt_PreviewKeyDown;
+			base.AutoScaleMode = AutoScaleMode.None;
+			base.Controls.Add(this.txt9);
+			base.Controls.Add(this.txt3);
+			base.Controls.Add(this.txt4);
+			base.Controls.Add(this.txt5);
+			base.Controls.Add(this.txt6);
+			base.Controls.Add(this.txt7);
+			base.Controls.Add(this.txt8);
+			base.Controls.Add(this.txt0);
+			base.Controls.Add(this.txt1);
+			base.Controls.Add(this.txt2);
+			base.Controls.Add(this.txt10);
+			base.Margin = new Padding(3, 2, 3, 2);
+			base.Name = "Indicator";
+			base.Size = new Size(300, 42);
+			base.ResumeLayout(false);
 		}
 	}
 }

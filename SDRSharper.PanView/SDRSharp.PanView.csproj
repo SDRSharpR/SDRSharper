@@ -138,9 +138,6 @@
     <EmbeddedResource Include="SDRSharp.PanView\GradientDialog.resx">
       <DependentUpon>GradientDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SDRSharp.PanView\Indicator.resx">
-      <DependentUpon>Indicator.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SDRSharp.Radio\BarMeter.resx">
       <DependentUpon>BarMeter.cs</DependentUpon>
     </EmbeddedResource>
