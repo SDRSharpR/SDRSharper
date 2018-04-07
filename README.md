@@ -11,7 +11,7 @@
 Have fun experimenting with SDRSharper v0.L6 source!<br>
 Orignal binaries <a href="http://www.qsl.net/s/sdr/">HERE</a>
 <br><br>
-I have to give props to orignal author, whoever it was corrected alot of reception/demodulation fixes, hence it gives exceptional DV quality over the standard SDRSharp. Whoever is was did a great job! Thank you!<br><br>
+I have to give props to orignal author of making changes to SDRSharp, whoever it was corrected alot of reception/demodulation fixes, hence it gives exceptional DV quality over the standard SDRSharp. Whoever is was did a great job! Thank you!<br><br>
 TODO: Add direct support for P25, and Trunking. ;)<br>
 <br>
 <br>
