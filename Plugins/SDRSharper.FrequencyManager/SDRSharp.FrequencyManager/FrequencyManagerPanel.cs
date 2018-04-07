@@ -12,7 +12,7 @@ namespace SDRSharp.FrequencyManager
 	[DesignTimeVisible(true)]
 	[Description("RF Memory Management Panel")]
 	public class FrequencyManagerPanel : UserControl
-	{
+    {
 		private const string AllGroups = "[All Groups]";
 
 		private const string FavouriteGroup = "[Favourites]";
@@ -41,7 +41,7 @@ namespace SDRSharp.FrequencyManager
 
 		private DataGridView frequencyDataGridView;
 
-		private ComboBox comboGroups;
+        private CustomComboxBox comboGroups;
 
 		private BindingSource memoryEntryBindingSource;
 
@@ -320,7 +320,7 @@ namespace SDRSharp.FrequencyManager
 			base.Dispose(disposing);
 		}
 
-		private void InitializeComponent()
+        private void InitializeComponent()
 		{
 			this.components = new Container();
 			ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof(FrequencyManagerPanel));
@@ -334,15 +334,17 @@ namespace SDRSharp.FrequencyManager
 			this.nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
 			this.frequencyDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
 			this.memoryEntryBindingSource = new BindingSource(this.components);
-			this.comboGroups = new ComboBox();
+			this.comboGroups = new CustomComboxBox();
 			this.mainToolStrip.SuspendLayout();
 			((ISupportInitialize)this.frequencyDataGridView).BeginInit();
 			((ISupportInitialize)this.memoryEntryBindingSource).BeginInit();
 			base.SuspendLayout();
+            this.mainToolStrip.Renderer = new CustomRenderer(); //ADDED
 			this.mainToolStrip.Anchor = (AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right);
 			this.mainToolStrip.AutoSize = false;
 			this.mainToolStrip.Dock = DockStyle.None;
-			this.mainToolStrip.GripStyle = ToolStripGripStyle.Hidden;
+            this.mainToolStrip.BackColor = Color.FromArgb(45, 45, 48);
+            this.mainToolStrip.GripStyle = ToolStripGripStyle.Hidden;
 			this.mainToolStrip.Items.AddRange(new ToolStripItem[3]
 			{
 				this.btnNewEntry,
@@ -356,39 +358,62 @@ namespace SDRSharp.FrequencyManager
 			this.mainToolStrip.Stretch = true;
 			this.mainToolStrip.TabIndex = 7;
 			this.mainToolStrip.Text = "toolStrip1";
-			this.btnNewEntry.Image = (Image)componentResourceManager.GetObject("btnNewEntry.Image");
+			//this.btnNewEntry.Image = (Image)componentResourceManager.GetObject("btnNewEntry.Image");
 			this.btnNewEntry.ImageTransparentColor = Color.Magenta;
 			this.btnNewEntry.Name = "btnNewEntry";
+            this.btnNewEntry.ForeColor = Color.RoyalBlue;
 			this.btnNewEntry.Size = new Size(48, 19);
 			this.btnNewEntry.Text = "New";
 			this.btnNewEntry.Click += this.btnNewEntry_Click;
-			this.btnEdit.Image = (Image)componentResourceManager.GetObject("btnEdit.Image");
+			//this.btnEdit.Image = (Image)componentResourceManager.GetObject("btnEdit.Image");
 			this.btnEdit.ImageTransparentColor = Color.Magenta;
 			this.btnEdit.Name = "btnEdit";
-			this.btnEdit.Size = new Size(45, 19);
+            this.btnEdit.ForeColor = Color.RoyalBlue;
+            this.btnEdit.Size = new Size(45, 19);
 			this.btnEdit.Text = "Edit";
 			this.btnEdit.Click += this.btnEdit_Click;
-			this.btnDelete.Image = (Image)componentResourceManager.GetObject("btnDelete.Image");
+			//this.btnDelete.Image = (Image)componentResourceManager.GetObject("btnDelete.Image");
 			this.btnDelete.ImageTransparentColor = Color.Magenta;
 			this.btnDelete.Name = "btnDelete";
-			this.btnDelete.Size = new Size(58, 19);
+            this.btnDelete.ForeColor = Color.RoyalBlue;
+            this.btnDelete.Size = new Size(58, 19);
 			this.btnDelete.Text = "Delete";
 			this.btnDelete.Click += this.btnDelete_Click;
-            this.label17.ForeColor = Color.CornflowerBlue;
-			this.label17.AutoSize = true;
-			this.label17.Location = new Point(2, 38);
-			this.label17.Margin = new Padding(2, 0, 2, 0);
+            this.label17.ForeColor = Color.Lime;
+            this.label17.BackColor = Color.FromArgb(45, 45, 48);
+            this.label17.AutoSize = false;
+			this.label17.Location = new Point(2, 55);
+			this.label17.Margin = new Padding(2, 0, 0, 0);
+            this.label17.TextAlign = ContentAlignment.MiddleLeft;
 			this.label17.Name = "label17";
-			this.label17.Size = new Size(39, 13);
+			this.label17.Size = new Size(39, 23);
 			this.label17.TabIndex = 5;
 			this.label17.Text = "Group:";
+
+            //Added -----------------------------------------------------------------------------
+            this.frequencyDataGridView.EnableHeadersVisualStyles = false;
+            this.frequencyDataGridView.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(45, 45, 48);
+            this.frequencyDataGridView.ColumnHeadersDefaultCellStyle.ForeColor = Color.Lime;
+            this.frequencyDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+
             this.frequencyDataGridView.BackgroundColor = Color.FromArgb(64, 64, 64);
-			this.frequencyDataGridView.AllowUserToAddRows = false;
+            this.frequencyDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            //-----------------------------------------------------------------------------------
+
+            this.frequencyDataGridView.AllowUserToAddRows = false;
 			this.frequencyDataGridView.AllowUserToDeleteRows = false;
 			this.frequencyDataGridView.AllowUserToResizeRows = false;
-			dataGridViewCellStyle.BackColor = Color.WhiteSmoke;
-			this.frequencyDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle;
-			this.frequencyDataGridView.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right);
+
+            // Replaced - Added ------------------------------------------------------------------
+			dataGridViewCellStyle.BackColor = Color.FromArgb(54, 54, 54);
+            dataGridViewCellStyle.ForeColor = Color.Gray;
+            dataGridViewCellStyle.SelectionBackColor = Color.FromArgb(45, 45, 48);
+            dataGridViewCellStyle.SelectionForeColor = Color.RoyalBlue;
+            //this.frequencyDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle;
+            this.frequencyDataGridView.DefaultCellStyle = dataGridViewCellStyle;
+            //------------------------------------------------------------------------------------
+
+            this.frequencyDataGridView.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right);
 			this.frequencyDataGridView.AutoGenerateColumns = false;
 			this.frequencyDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.frequencyDataGridView.Columns.AddRange(this.nameDataGridViewTextBoxColumn, this.frequencyDataGridViewTextBoxColumn);
@@ -396,9 +421,9 @@ namespace SDRSharp.FrequencyManager
 			this.frequencyDataGridView.Location = new Point(0, 60);
 			this.frequencyDataGridView.Margin = new Padding(2, 2, 2, 2);
 			this.frequencyDataGridView.Name = "frequencyDataGridView";
-			this.frequencyDataGridView.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            this.frequencyDataGridView.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
 			this.frequencyDataGridView.RowHeadersVisible = false;
-			this.frequencyDataGridView.RowTemplate.Height = 24;
+			this.frequencyDataGridView.RowTemplate.Height = 18;
 			this.frequencyDataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 			this.frequencyDataGridView.ShowCellErrors = false;
 			this.frequencyDataGridView.ShowCellToolTips = false;
@@ -412,24 +437,31 @@ namespace SDRSharp.FrequencyManager
 			this.frequencyDataGridView.SelectionChanged += this.frequencyDataGridView_SelectionChanged;
 			this.frequencyDataGridView.KeyDown += this.frequencyDataGridView_KeyDown;
 			this.nameDataGridViewTextBoxColumn.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-			this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
 			this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
 			this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
 			this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-			this.frequencyDataGridViewTextBoxColumn.DataPropertyName = "Frequency";
+            this.frequencyDataGridViewTextBoxColumn.DataPropertyName = "Frequency";
 			this.frequencyDataGridViewTextBoxColumn.HeaderText = "Frequency";
 			this.frequencyDataGridViewTextBoxColumn.Name = "frequencyDataGridViewTextBoxColumn";
 			this.frequencyDataGridViewTextBoxColumn.ReadOnly = true;
 			this.memoryEntryBindingSource.DataSource = typeof(MemoryEntry);
+
+            //Added-----------------------------------------------------------------------
+            this.comboGroups.FlatStyle = FlatStyle.Flat;
+            this.comboGroups.BackColor = Color.FromArgb(45, 45, 48);
+            this.comboGroups.ForeColor = Color.RoyalBlue;
+            //----------------------------------------------------------------------------
+
 			this.comboGroups.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right);
 			this.comboGroups.AutoCompleteMode = AutoCompleteMode.Suggest;
 			this.comboGroups.AutoCompleteSource = AutoCompleteSource.ListItems;
 			this.comboGroups.DropDownStyle = ComboBoxStyle.DropDownList;
-			this.comboGroups.FormattingEnabled = true;
-			this.comboGroups.Location = new Point(47, 35);
+            this.comboGroups.FormattingEnabled = true;
+			this.comboGroups.Location = new Point(39, 35);
 			this.comboGroups.Margin = new Padding(2, 2, 2, 2);
 			this.comboGroups.Name = "comboGroups";
-			this.comboGroups.Size = new Size(189, 21);
+			this.comboGroups.Size = new Size(195, 21);
 			this.comboGroups.TabIndex = 4;
 			this.comboGroups.SelectedIndexChanged += this.comboGroups_SelectedIndexChanged;
 			base.AutoScaleDimensions = new SizeF(6f, 13f);

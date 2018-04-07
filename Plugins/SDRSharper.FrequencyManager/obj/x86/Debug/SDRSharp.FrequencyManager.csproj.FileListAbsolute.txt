@@ -1,0 +1,20 @@
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.csprojResolveAssemblyReference.cache
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.DialogEntryInfo.resources
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.FrequencyManagerPanel.resources
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.GenerateResource.cache
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.CoreCompileInputs.cache
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\SDRSharp.FrequencyManager.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\SDRSharp.FrequencyManager.pdb
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\SDRSharp.Common.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\SDRSharp.Radio.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\System.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\System.Drawing.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\System.Windows.Forms.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\bin\Debug\System.Xml.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.CopyComplete
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.dll
+C:\Users\James\Downloads\RTL-SDR Stuff\SDRSharper_06l\Sources\ILSpy\obj\x86\Debug\SDRSharp.FrequencyManager.pdb
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\Plugins\SDRSharper.FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\Plugins\SDRSharper.FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\Plugins\SDRSharper.FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.dll
+C:\Users\James\Documents\Visual Studio 2017\Projects\SDRSharper\Plugins\SDRSharper.FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.pdb
